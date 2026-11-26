@@ -1,0 +1,33 @@
+{
+  "average_fps": 59.953303275211,
+  "connections": 25582938,
+  "frames": 1799,
+  "game_elapsed": 32.99966812133789,
+  "max_frame_ms": 49.084999999999994,
+  "mean_frame_ms": 16.679648082267917,
+  "neural": [
+    {
+      "last_step_spikes": 3492,
+      "measured_steps_per_active_second": 199.2130155951559,
+      "motor": [
+        0.027283284813165665,
+        -0.02841825969517231,
+        0.6901891827583313
+      ],
+      "slot": 1,
+      "steps": 3874,
+      "total_measured_neural_steps": 5377
+    }
+  ],
+  "neurons_per_enemy": 166700,
+  "opponents": 1,
+  "p95_frame_ms": 17.7397,
+  "p99_frame_ms": 18.4907,
+  "scores": [
+    1,
+    0
+  ],
+  "seconds": 30.006846600000003,
+  "shots": 260,
+  "version": "0.6.0"
+}

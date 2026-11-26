@@ -1,0 +1,19 @@
+SWARMSTRIKE 0.7 — OPEN FIELD GAMEPLAY
+
+Three new 36-second videos, 1920x1080 at 30 fps, with stereo game-event audio.
+
+01 Drone Assault: drone chase, side tracking, cockpit bursts and a rising finale.
+02 On the Wing: close fly pursuit, reverse angles and banking orbits.
+03 Crossfire: alternating teams, low passes, overhead combat and a wide pull-back.
+
+All footage comes from native Rust/Bevy autonomous gameplay on the expanded map:
+2,000-metre grid, 33 solid cover structures, 4 friendly craft and 4 opposing flies.
+Enemy circuits use the full official MaleCNS annotated neuron graph. Offline
+capture uses the identical neural_core.rs with lockstep 200 Hz neural updates and
+60 Hz physics; rendering delays do not change simulated time. The director changes
+cameras only. Hits, damage, bursts, cover collision and kills come from gameplay.
+Sound effects are synchronized from actual game events, plus soft synthetic ambience.
+No generated video, external music or staged hit/kill events are used.
+
+All three files passed duration, frame-count, codec, audio and full decoding checks.
+Per-file combat counts, metadata and checksums: Gameplay-video-validation.json.

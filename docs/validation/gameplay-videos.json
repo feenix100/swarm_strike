@@ -1,0 +1,47 @@
+[
+  {
+    "file": "Swarmstrike-01-Drone-Assault.mp4",
+    "seconds": 36.0,
+    "frames": 1080,
+    "fps": 30,
+    "resolution": "1920x1080",
+    "bytes": 39969969,
+    "sha256": "6f7000bc2b366445ba6267ccf74cefe58206573e0835367faba8e5b1e5f1b90d",
+    "shots": 412,
+    "eliminations": 5,
+    "dataset": "MaleCNS v1.0",
+    "cover_structures": 33,
+    "neural_scheduling": "Offline lockstep, identical neural_core.rs; no wall-clock drift or reduced circuit",
+    "full_decode_passed": true
+  },
+  {
+    "file": "Swarmstrike-02-On-the-Wing.mp4",
+    "seconds": 36.0,
+    "frames": 1080,
+    "fps": 30,
+    "resolution": "1920x1080",
+    "bytes": 41353477,
+    "sha256": "8bfc327239ec9af0d2ca36d24722c9aeea3e2b574f38f81883e5e973759a5bca",
+    "shots": 418,
+    "eliminations": 5,
+    "dataset": "MaleCNS v1.0",
+    "cover_structures": 33,
+    "neural_scheduling": "Offline lockstep, identical neural_core.rs; no wall-clock drift or reduced circuit",
+    "full_decode_passed": true
+  },
+  {
+    "file": "Swarmstrike-03-Crossfire.mp4",
+    "seconds": 36.0,
+    "frames": 1080,
+    "fps": 30,
+    "resolution": "1920x1080",
+    "bytes": 42664971,
+    "sha256": "12c42587618b6c6bc148294b5b48b08c31a3830c7c3bb190e76d818b838de2ff",
+    "shots": 390,
+    "eliminations": 9,
+    "dataset": "MaleCNS v1.0",
+    "cover_structures": 33,
+    "neural_scheduling": "Offline lockstep, identical neural_core.rs; no wall-clock drift or reduced circuit",
+    "full_decode_passed": true
+  }
+]

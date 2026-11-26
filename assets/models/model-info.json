@@ -1,0 +1,49 @@
+{
+  "version": 2,
+  "species_reference": "Drosophila melanogaster, male habitus",
+  "triangles": 133696,
+  "files": {
+    "fly_detailed.stl": 133696,
+    "fly_flight.stl": 133696
+  },
+  "units": "millimetres",
+  "pose": "folded resting wings in fly_detailed.stl; spread flight wings in fly_flight.stl",
+  "wing_hinge": [
+    0.49,
+    0.42,
+    -0.23
+  ],
+  "rest_sweep_radians": 1.62,
+  "rest_pitch_radians": 0.06,
+  "rest_left_wing_height_offset": 0.014,
+  "components": "overlapping closed surfaces; not boolean-unioned",
+  "interpretation": "Original artist-built mesh informed by reference photographs; not a scan or measured reconstruction.",
+  "features": [
+    "continuous tapered banded abdomen",
+    "arched scutum and scutellum",
+    "shallow hexagonal corneal lenses",
+    "short plumose antennae",
+    "retracted mouthparts and maxillary palps",
+    "six naturally posed slender legs",
+    "five tarsomeres with claws and pulvilli",
+    "halteres",
+    "recurved macrosetae and surface microsetae",
+    "thin swept wings with longitudinal veins and crossveins"
+  ],
+  "palette": [
+    "ochre chitin",
+    "golden cuticle",
+    "red compound eye",
+    "translucent membrane",
+    "fine wing vein",
+    "dark tergite",
+    "seta",
+    "corneal lens"
+  ],
+  "reference_photographer": "André Karwath (Aka), CC BY-SA 2.5; viewed as anatomical references only, photos not bundled",
+  "reference_urls": [
+    "https://commons.wikimedia.org/wiki/File:Drosophila_melanogaster_-_front_(aka).jpg",
+    "https://commons.wikimedia.org/wiki/File:Drosophila_melanogaster_-_side_(aka).jpg",
+    "https://commons.wikimedia.org/wiki/File:Drosophila_melanogaster_-_top_(aka).jpg"
+  ]
+}

@@ -1,0 +1,23 @@
+[package]
+name = "swarmstrike"
+version = "0.7.0"
+edition = "2024"
+default-run = "swarmstrike"
+description = "Aerial duels between silicon and a connectome-driven fly"
+license = "MIT"
+
+[dependencies]
+bevy = { version = "=0.19.1", default-features = false, features = ["3d", "ui", "bevy_audio", "wav", "png"] }
+serde = { version = "1", features = ["derive"] }
+serde_json = "1"
+
+[profile.dev]
+opt-level = 1
+debug = 0
+
+[profile.dev.package."*"]
+opt-level = 2
+
+[profile.release]
+opt-level = 3
+lto = "thin"

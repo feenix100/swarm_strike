@@ -1,0 +1,11 @@
+* text=auto eol=lf
+*.cmd text eol=crlf
+*.bin -text
+*.stl -text
+*.png -text
+*.jpg -text
+*.gif -text
+*.wav -text
+*.gz -text
+*.mp4 -text
+*.zip -text

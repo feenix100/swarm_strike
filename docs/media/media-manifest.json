@@ -1,0 +1,47 @@
+{
+  "generated": "2026-11-25",
+  "media": [
+    {
+      "file": "combat.png",
+      "bytes": 1240659,
+      "sha256": "3f9075d617630207e60b9da957c310caeae512d8167800d3998956a58a4be527",
+      "origin": "Native v0.7 expanded-map gameplay capture."
+    },
+    {
+      "file": "neural-telemetry.png",
+      "bytes": 1240659,
+      "sha256": "3f9075d617630207e60b9da957c310caeae512d8167800d3998956a58a4be527",
+      "origin": "Native v0.7 expanded-map gameplay and full MaleCNS worker telemetry."
+    },
+    {
+      "file": "drone-burst.gif",
+      "bytes": 5936487,
+      "sha256": "5c4d10ef9586582f3cd7c8e863114c886d6adff46e36b7fb2bb69da105bb6334",
+      "origin": "Excerpt from v0.7 Drone Assault, fixed-time full MaleCNS gameplay capture."
+    },
+    {
+      "file": "fly-dogfight.gif",
+      "bytes": 6112589,
+      "sha256": "6bb8e0f6c3f0998b1db13743341be57855eaac8db5ac92bf34a0d3f920e5cc17",
+      "origin": "Excerpt from v0.7 On the Wing, fixed-time full MaleCNS gameplay capture."
+    },
+    {
+      "file": "menu.png",
+      "bytes": 887374,
+      "sha256": "826b0c269c68fbe117f85e9991a0520c8627098082058eea533753f46a1cb401",
+      "origin": "Native v0.6 pre-match lab; craft selection and controls retained in v0.7."
+    },
+    {
+      "file": "controls.png",
+      "bytes": 274157,
+      "sha256": "03d82d37dc033d28d9d0dd0df32b0606ab08620166160c69662c3442bf960a42",
+      "origin": "Earlier Flight Manual capture; displayed controls retained in v0.7."
+    },
+    {
+      "file": "fly-model.jpg",
+      "bytes": 66069,
+      "sha256": "8a43615b3513d6612c9e8b468f91d840a935b42d305385bfa2ebebae16a3e470",
+      "origin": "Preview of the current procedural fly STL, unchanged by the arena and data updates."
+    }
+  ]
+}

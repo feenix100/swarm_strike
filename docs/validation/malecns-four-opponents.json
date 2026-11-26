@@ -1,0 +1,69 @@
+{
+  "average_fps": 60.019566245293326,
+  "connections": 25582938,
+  "frames": 1801,
+  "game_elapsed": 32.949668884277344,
+  "max_frame_ms": 20.1397,
+  "mean_frame_ms": 16.661233370349773,
+  "neural": [
+    {
+      "last_step_spikes": 4969,
+      "measured_steps_per_active_second": 195.84282515879482,
+      "motor": [
+        -0.020639970898628235,
+        0.033012982457876205,
+        0.6882103085517883
+      ],
+      "slot": 1,
+      "steps": 385,
+      "total_measured_neural_steps": 5286
+    },
+    {
+      "last_step_spikes": 4665,
+      "measured_steps_per_active_second": 195.87513710240768,
+      "motor": [
+        0.07706628739833832,
+        -0.0016404633643105626,
+        0.6861820220947266
+      ],
+      "slot": 2,
+      "steps": 1367,
+      "total_measured_neural_steps": 5287
+    },
+    {
+      "last_step_spikes": 3045,
+      "measured_steps_per_active_second": 195.69396003263208,
+      "motor": [
+        0.005602779798209667,
+        0.009935956448316574,
+        0.7123440504074097
+      ],
+      "slot": 3,
+      "steps": 667,
+      "total_measured_neural_steps": 5282
+    },
+    {
+      "last_step_spikes": 4066,
+      "measured_steps_per_active_second": 195.94061358234487,
+      "motor": [
+        0.01011953316628933,
+        -0.03287368267774582,
+        0.704186737537384
+      ],
+      "slot": 4,
+      "steps": 1775,
+      "total_measured_neural_steps": 5289
+    }
+  ],
+  "neurons_per_enemy": 166700,
+  "opponents": 4,
+  "p95_frame_ms": 17.7863,
+  "p99_frame_ms": 18.2927,
+  "scores": [
+    4,
+    4
+  ],
+  "seconds": 30.0030388,
+  "shots": 339,
+  "version": "0.6.0"
+}

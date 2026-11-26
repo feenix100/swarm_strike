@@ -1,0 +1,15 @@
+/target/
+/dist/
+/bin/
+/screenshots/
+*.log
+
+# Reproducible official downloads and generated 207 MB runtime graph
+/data/
+/assets/neural/malecns-v1.0.bin
+/benchmark_neural.exe
+
+__pycache__/
+
+# Personal narration stays local.
+/docs/YouTube-Script.*

@@ -1,0 +1,61 @@
+{
+  "dataset": "MaleCNS v1.0",
+  "source": "https://male-cns.janelia.org/download/",
+  "paper": "https://doi.org/10.1016/j.cell.2026.08.015",
+  "authors": "HHMI Janelia FlyEM, University of Cambridge, MRC Laboratory of Molecular Biology, Google Research and collaborators",
+  "data_license": "CC BY 4.0",
+  "license_source": "https://male-cns.janelia.org/download/",
+  "official_files": [
+    {
+      "file": "body-annotations-male-cns-v1.0-minconf-0.5.feather",
+      "url": "https://storage.googleapis.com/flyem-male-cns/v1.0/connectome-data/flat-connectome/body-annotations-male-cns-v1.0-minconf-0.5.feather",
+      "bytes": 14483314,
+      "sha256": "2177e246113e4cfbf1e7772ec37c6da1955ff22e8063d0b1f833101f99a9a3b2",
+      "gcs_hash": "crc32c=vjz9cg==",
+      "gcs_generation": "1780494878811468"
+    },
+    {
+      "file": "body-neurotransmitters-male-cns-v1.0.feather",
+      "url": "https://storage.googleapis.com/flyem-male-cns/v1.0/connectome-data/flat-connectome/body-neurotransmitters-male-cns-v1.0.feather",
+      "bytes": 43282834,
+      "sha256": "95c9289220663abeb3409f3ad9e5a7f8a53f8093f5139d15502cd08da8879621",
+      "gcs_hash": "crc32c=jcpNFg==",
+      "gcs_generation": "1780894899156750"
+    },
+    {
+      "file": "connectome-weights-male-cns-v1.0-minconf-0.5.feather",
+      "url": "https://storage.googleapis.com/flyem-male-cns/v1.0/connectome-data/flat-connectome/connectome-weights-male-cns-v1.0-minconf-0.5.feather",
+      "bytes": 1051241946,
+      "sha256": "e35da783d1c686b2b58b3b87cd6a403ae43bfcfba8bff28e08ef752c1a56afc1",
+      "gcs_hash": "crc32c=dKRPVQ==",
+      "gcs_generation": "1780494887545976"
+    }
+  ],
+  "official_connection_rows": 151856684,
+  "official_synapse_count": 311833243,
+  "selected_neurons": 166700,
+  "selected_edges": 25582938,
+  "selected_synapse_count": 124177617,
+  "excluded_connection_rows": 126273746,
+  "neuron_selection": "Every row with non-null superclass in the official annotation file (all 166700 published class-annotated neurons). No functional-group, transmitter, edge-weight or side filter.",
+  "edge_selection": "Every official row with both endpoints in those neurons; count-one and self connections retained. Other rows include unclassified segments, glia and fragments; untouched full source table retained in source download directory.",
+  "storage": "Lossless reindex to sorted original body IDs and CSR outgoing edges; original u32 integer synapse counts. Original IDs, anatomical-side annotations and full selected-cell annotation records retained.",
+  "output_file": "malecns-v1.0.bin",
+  "output_bytes": 207330732,
+  "output_sha256": "19fc8bda4bdd8bb70b008e499f25adcf92c01970ba035aadc75c642198f9bbd4",
+  "simulation": "One state per imported neuron per enemy. Simplified LIF, engineered visual encoder and population readout. Anatomical sides from official somaSide/rootSide, no artificial graph duplication. Incoming weight normalization and ACh positive, GABA/glutamate/histamine negative, other/unknown zero are runtime assumptions, not original physiology.",
+  "group_counts": {
+    "0": 6098,
+    "1": 99169,
+    "2": 2950,
+    "3": 1316,
+    "4": 815,
+    "5": 56352
+  },
+  "nt_sign_counts": {
+    "-1": 59262,
+    "0": 3718,
+    "1": 103720
+  },
+  "validation": "All input hashes checked; all annotated IDs preserved; all official eligible edges and integer counts preserved; no minimum connection threshold; all exported edges checked before write."
+}

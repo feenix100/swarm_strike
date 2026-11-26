@@ -1,0 +1,12 @@
+{
+  "neurons": 166700,
+  "connections": 25582938,
+  "synapses": 124177617,
+  "all_original_ids_match": true,
+  "all_official_neuron_edges_match": true,
+  "all_integer_synapse_counts_match": true,
+  "no_connection_threshold": true,
+  "count_one_edges": 10299701,
+  "self_connections": 101,
+  "graph_sha256": "19fc8bda4bdd8bb70b008e499f25adcf92c01970ba035aadc75c642198f9bbd4"
+}
